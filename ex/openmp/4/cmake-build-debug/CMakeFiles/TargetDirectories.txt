@@ -1,0 +1,3 @@
+/home/sirosh/Documents/prog/paral/openmp/hw/4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sirosh/Documents/prog/paral/openmp/hw/4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sirosh/Documents/prog/paral/openmp/hw/4/cmake-build-debug/CMakeFiles/4.dir

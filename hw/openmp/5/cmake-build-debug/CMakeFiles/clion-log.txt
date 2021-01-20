@@ -1,0 +1,4 @@
+/home/sirosh/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sirosh/Documents/prog/paral/openmp/hw/5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sirosh/Documents/prog/paral/openmp/hw/5/cmake-build-debug
