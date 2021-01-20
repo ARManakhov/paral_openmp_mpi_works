@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sirosh/Documents/prog/paral/ex/mpi/6/main.cpp
+stdio.h
+-
+stdlib.h
+-
+mpi.h
+-
+
+/usr/include/mpich-x86_64/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/include/mpich-x86_64/mpio.h
+mpicxx.h
+/usr/include/mpich-x86_64/mpicxx.h
+
+/usr/include/mpich-x86_64/mpicxx.h
+stdio.h
+-
+
+/usr/include/mpich-x86_64/mpio.h
+mpi.h
+/usr/include/mpich-x86_64/mpi.h
+

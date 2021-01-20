@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sirosh/Documents/prog/paral/ex/openmp/7/main.cpp" "/home/sirosh/Documents/prog/paral/ex/openmp/7/cmake-build-debug/CMakeFiles/7.dir/main.cpp.o"
+  "/home/sirosh/Documents/prog/paral/ex/mpi/6/main.cpp" "/home/sirosh/Documents/prog/paral/ex/mpi/6/cmake-build-debug/CMakeFiles/6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/mpich-x86_64"
   )
 
 # Targets to which this target links.

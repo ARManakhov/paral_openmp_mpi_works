@@ -68,10 +68,10 @@ RM = /home/sirosh/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sirosh/Documents/prog/paral/ex/openmp/7
+CMAKE_SOURCE_DIR = /home/sirosh/Documents/prog/paral/ex/mpi/6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sirosh/Documents/prog/paral/ex/openmp/7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sirosh/Documents/prog/paral/ex/mpi/6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirosh/Documents/prog/paral/ex/openmp/7/cmake-build-debug/CMakeFiles /home/sirosh/Documents/prog/paral/ex/openmp/7/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirosh/Documents/prog/paral/ex/mpi/6/cmake-build-debug/CMakeFiles /home/sirosh/Documents/prog/paral/ex/mpi/6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirosh/Documents/prog/paral/ex/openmp/7/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirosh/Documents/prog/paral/ex/mpi/6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 7
+# Target rules for targets named 6
 
 # Build rule for target.
-7 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7
-.PHONY : 7
+6 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6
+.PHONY : 6
 
 # fast build rule for target.
-7/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/build
-.PHONY : 7/fast
+6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/build
+.PHONY : 6/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 7"
+	@echo "... 6"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
