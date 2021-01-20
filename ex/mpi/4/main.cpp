@@ -22,9 +22,9 @@ int main(int argc, char **argv) {
     int x[n];
 
     if (rank == root) {
-        printf("root = %i x=\n", rank);
         for (i = 0; i < n; i++) {
             x[i] = i + 1;
+            printf("x[i]= %d\n", x[i]);
         }
     }
 
@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
     MPI_Reduce(&sum_part, &sum, 1, MPI_INT, MPI_SUM, root, MPI_COMM_WORLD);
 
     if (rank == root) {
-        printf("sum= %d\n", rank, sum);
+        printf("sum= %d\n", sum);
     }
 
     MPI_Finalize();
