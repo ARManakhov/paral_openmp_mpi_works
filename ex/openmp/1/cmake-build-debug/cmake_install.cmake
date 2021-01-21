@@ -1,4 +1,4 @@
-# Install script for directory: /home/sirosh/Documents/prog/paral/openmp/hw/1
+# Install script for directory: /home/sirosh/Documents/prog/paral/ex/openmp/1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sirosh/Documents/prog/paral/openmp/hw/1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sirosh/Documents/prog/paral/ex/openmp/1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

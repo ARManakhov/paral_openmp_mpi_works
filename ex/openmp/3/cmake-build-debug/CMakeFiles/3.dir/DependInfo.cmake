@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sirosh/Documents/prog/paral/openmp/hw/3/main.cpp" "/home/sirosh/Documents/prog/paral/openmp/hw/3/cmake-build-debug/CMakeFiles/3.dir/main.cpp.o"
+  "/home/sirosh/Documents/prog/paral/ex/openmp/3/main.cpp" "/home/sirosh/Documents/prog/paral/ex/openmp/3/cmake-build-debug/CMakeFiles/3.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
